@@ -101,17 +101,24 @@ html {
   height: 100%;
 }
 
+header{
+    margin-bottom: 1em;
+}
+
 header, footer, main{
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
+    width: 100%;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
   font-size: 1.25em;
-  height: 100%;
+  display: flex;
+  justify-content: center;
   color: #fff;
 }
 
@@ -119,12 +126,18 @@ header, footer {
     background-color: #000000;
     height: 80px;
     width: 100%;
+    justify-content: flex-start;
+    font-size: 3rem;
 }
 
 main {
     background-color: #000000;
     height: 250px;
     width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    border-bottom: 00.0625rem solid #fff;
 }
 
 
@@ -133,6 +146,8 @@ main {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  max-width: 1200px;
+  flex-wrap: wrap;
 }
 
 .div-1, .div-2, .div-3 {
@@ -146,7 +161,8 @@ main {
   width: 30%;
   justify-content: center;
   align-items: center;
-  border
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .div-2 {
@@ -154,6 +170,17 @@ main {
     border-right: 0.0625em solid #fff;
     padding-left: 1em;
     padding-right: 1em;
+}
+
+footer{
+    border-top: 00.0625rem solid #fff;
+}
+
+img {
+    height: 2rem;
+    width: 3%;
+    display: flex;
+
 }
 
 
